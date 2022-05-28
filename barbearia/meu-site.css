@@ -1,0 +1,176 @@
+body{background-color: rgb(195, 206, 202)}
+
+.tabela-preço{
+    background-color: rgb(157, 170, 180);
+    width: 150px;
+    padding: 30px;
+    outline: black;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.7);
+    height: -150px;}
+
+.paragrafo{
+    text-align: center;
+    font-size: medium; 
+    background-color: rgb(130, 133, 133);
+    padding: 10px;
+    }
+
+.paragrafo2{
+    text-align: center;
+    font-size: medium; 
+    background-color: rgb(130, 133, 133);
+    padding: 10px;
+    outline: 3px solid rgb(55, 58, 58);
+    box-shadow: 5px 5px 10px rgba(32, 30, 30, 0.7);}
+
+#enfase{font-size: larger;}
+
+#h11{color: rgb(13, 22, 31);}
+
+.carrosel ul{
+    list-style: none;
+    display: flex;
+    margin-right: 40px;}
+
+.fotos{
+    height: 310px;
+    width: 363px;
+    outline: 3px solid black;
+    margin-left: -40px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.7);}
+
+.fotos2{
+    height: 275px;
+    width: 251px;
+    outline: 3px solid black;
+    margin-right: 12px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.7);
+;}
+
+.adjetivo{text-align: center;}
+
+.melhor-fotoo{
+    width: 20%;
+    outline: 3px solid black;
+    margin-left: 10px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.7);}
+
+.arrasta{
+    text-align: right;
+    margin-top: -292px;
+    width: 1335px;}
+
+.localidade{text-align: center;}
+
+#insta{
+    color: rgb(7, 6, 6); 
+    font-size: larger;
+    text-underline-position: initial;}
+
+ 
+ 
+    /* Meu index HTML  */
+
+/* <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8191a90c0f.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="meu-site.css">
+    <title>Barbearia ell shaday</title>
+    </head>
+    <body>
+        <header >
+            <h1 id="h11"><u>Barbearia ell shadday</u></h1>
+        </header>
+       
+        <div class="carrosel">
+            <ul>
+                <li>
+                    <img src="apresentaçao1.jpg" alt="" class="fotos">
+                </li>
+                <li>
+                    <img src="apresentaçao2.jpg" alt=""  class="fotos">
+                </li>
+                <li>
+                    <img src="apresentaçao3.jpg" alt=""  class="fotos">
+                </li>
+                <li>
+                    <img src="apresentaçao4.jpg" alt=""  class="fotos" >
+                </li>
+            </ul>
+        </div>
+        <div class="paragrafo2">
+            <p class="paragrafo"><h2>Sobre a Barbearia Ell Shadday</h2></p>
+            
+            <p class="paragrafo">Localizada em nova iguaçu  a <b>Barbearia ell shadday</b> traz para o seu bairro o que há de melhor para o seu cabelo e barba. Fundada em 2015 por Glauco leal, a Barbearia ell shadday já é referência no bairro e conquista novos clientes a cada dia.
+            </p>
+            
+            <p id="enfase"><em>Nossa missão é:<b> "Proporcionar auto-estima e qualidade de vida aos clientes".</b></em></p>
+            
+            <p class="paragrafo">Oferecemos profissionais experientes e antenados no quesitos de beleza e bem estar . O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+        </div>
+        
+        <h3 class="adjetivo">Profissionais qualificados</h3>
+        <p class="adjetivo"><u>Glauco leal</u></p>
+        <hr>
+        <p>
+            <ul class="tabela-preço">
+                <li>
+                    <h3>Tabela de preços</h3>
+                </li>
+                <li>
+                    Corte tesoura. 23$
+                </li>
+                <li>
+                    Corte máquina. 18$
+                </li>
+                <li>
+                    Sombrancelha. 5$
+                </li>
+                <li>
+                    Barba. 12$
+                </li>
+                <li>
+                    Corte navalhado. 23$
+                </li>
+                <li>
+                    Pé do cabelo. 5$
+                </li>
+                <li>
+                    Luzes a partir de. 20$
+                </li>
+                <li>
+                    Tintura. 10$
+                </li>
+        </p>
+        </ul>
+        <p class="arrasta">
+            <img src="melhor-foto.jpg" alt="" class="melhor-fotoo">
+            <img src="foto-boa2.jpg" alt="" class="melhor-fotoo">
+            <img src="foto3.jpg" alt="" class="melhor-fotoo">
+           <img src="regua.jpg" alt="" class="melhor-fotoo">
+        </p>
+        <a  href="https://www.instagram.com/barbearia_ellshadday/" target="_blank" rel="external" id="insta"><i class="fa-brands fa-instagram-square"></i><u>Clique aqui. e acesse a minha página</u></i></a> 
+        <hr>
+        <p class="adjetivo" id=""><u>Jonathan amim</u></p>
+        
+        <div">
+            <img src="jonathan.jpg" alt="" class="fotos2">
+            <img src="jn1.jpg" alt="" class="fotos2">
+            <img src="jn2.jpg" alt="" class="fotos2">
+            <img src="jn3.jpg" alt="" class="fotos2">
+            <img src="jn4.jpg" alt="" class="fotos2">
+        </div>
+        <a  href=https://www.instagram.com/jonathan_amim/ target="_blank" rel="external" id="insta"><i class="fa-brands fa-instagram-square"></i><u>Clique aqui. e acesse a minha página</u></i></a> 
+        <hr>
+        <h3 class="localidade">Endereço</h3>
+        <p class="localidade">Rua: Wilson costa</p>
+        <p class="localidade">Bairro: Valverde</p>
+        <p class="localidade">Nova iguaçu - Rj</p>
+    
+    </body>
+    </html> */
