@@ -41,7 +41,7 @@ body{background-color: rgb(195, 206, 202)}
 
 .fotos2{
     height: 275px;
-    width: 251px;
+    width: 255px;
     outline: 3px solid black;
     margin-right: 12px;
     box-shadow: 10px 10px 15px rgba(0,0,0,0.7);
@@ -52,7 +52,7 @@ body{background-color: rgb(195, 206, 202)}
 .melhor-fotoo{
     width: 20%;
     outline: 3px solid black;
-    margin-left: 10px;
+    margin-left: 12px;
     box-shadow: 10px 10px 15px rgba(0,0,0,0.7);}
 
 .arrasta{
@@ -65,7 +65,8 @@ body{background-color: rgb(195, 206, 202)}
 #insta{
     color: rgb(7, 6, 6); 
     font-size: larger;
-    text-underline-position: initial;}
+    text-underline-position: initial;
+    margin-left: 1200px;}
 
  
  
