@@ -52,7 +52,7 @@ body{background-color: rgb(195, 206, 202)}
 .melhor-fotoo{
     width: 20%;
     outline: 3px solid black;
-    margin-left: 12px;
+    margin-left: 10px;
     box-shadow: 10px 10px 15px rgba(0,0,0,0.7);}
 
 .arrasta{
