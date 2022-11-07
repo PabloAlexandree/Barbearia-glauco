@@ -1,1 +1,1 @@
-https://pablooalexandree.github.io/Barbearia-glauco/
+https://pabloalexandree.github.io/Barbearia-glauco/
